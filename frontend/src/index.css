@@ -1,0 +1,45 @@
+:root {
+  --coral: #E07A5F;
+  --coral-light: #F2A391;
+  --sage: #81B29A;
+  --cream: #F4F1DE;
+  --sand: #E8E4D9;
+  --charcoal: #3D405B;
+  --charcoal-light: #5C5F7A;
+  --white: #FFFFFF;
+  --shadow: rgba(61, 64, 91, 0.12);
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'DM Sans', -apple-system, sans-serif;
+  background: linear-gradient(135deg, var(--cream) 0%, var(--sand) 100%);
+  color: var(--charcoal);
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+a {
+  color: var(--coral);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}

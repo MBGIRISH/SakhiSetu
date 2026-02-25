@@ -1,0 +1,59 @@
+.schemes-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.schemes-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.last-updated {
+  font-size: 0.85rem;
+  color: var(--charcoal-light);
+}
+
+.scheme-card-header {
+  margin-bottom: 0.5rem;
+}
+
+.scheme-category {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--sage);
+  background: rgba(129, 178, 154, 0.15);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.card-benefits {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0;
+  border-top: 1px solid var(--sand);
+}
+
+.card-benefits strong {
+  font-size: 0.85rem;
+  color: var(--charcoal);
+}
+
+.card-benefits p {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.9rem;
+  color: var(--charcoal);
+  line-height: 1.5;
+}
+
+.scheme-card-footer {
+  margin-top: auto;
+  padding-top: 0.75rem;
+}
