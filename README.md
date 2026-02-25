@@ -1,32 +1,18 @@
 # SakhiSetu
 
-<p align="center">
-  <strong>AI-Powered Women Government Scheme Navigator</strong>
-</p>
+![Python 3.10+](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?style=flat&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react&logoColor=black)
+![Google Gemini](https://img.shields.io/badge/Gemini-2.5_Flash-4285F4?style=flat&logo=google&logoColor=white)
+![License MIT](https://img.shields.io/badge/License-MIT-green?style=flat)
 
-<p align="center">
-  Find, understand, and apply for women-focused government schemes in India — one platform, multiple languages, always updated.
-</p>
+## 🌉 SakhiSetu — AI-Powered Women Government Scheme Navigator
+
+Find, understand, and apply for women-focused government schemes in India. One platform. Multiple languages. Always updated.
 
 ---
 
-## Table of Contents
-
-- [Problem Statement](#problem-statement)
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Output](#output)
-- [Tech Stack](#tech-stack)
-- [Architecture](#architecture)
-- [Project Structure](#project-structure)
-- [Setup & Installation](#setup--installation)
-- [Configuration](#configuration)
-- [API Reference](#api-reference)
-- [Multilingual Support](#multilingual-support)
-- [Design Decisions](#design-decisions)
-- [Roadmap](#roadmap)
-- [References](#references)
-- [License](#license)
+**Navigation:** [Problem](#problem-statement) · [Quick Start](#setup--installation) · [Features](#key-features) · [Architecture](#architecture) · [API](#api-reference) · [Configuration](#configuration) · [Output](#output)
 
 ---
 
@@ -78,34 +64,6 @@ India has **hundreds of government schemes** aimed at women—covering maternity
 - **Text Simplifier** — Paste complex eligibility text; get simple, translated output
 - **Auto-Update** — Schemes refreshed from official sources on a configurable schedule
 - **Multilingual** — English, Hindi, Tamil, Telugu, Marathi, Bengali, Gujarati, Kannada, Malayalam, Punjabi
-
----
-
-## Output
-
-### Home
-
-Landing page with hero, key statistics (schemes count, languages, last updated), and call-to-action buttons.
-
-![SakhiSetu Home](docs/screenshots/home.png)
-
-### Schemes
-
-Browse government schemes with language selector, category filter, and refresh. Each card shows name, description, eligibility, and Apply link.
-
-![SakhiSetu Schemes](docs/screenshots/schemes.png)
-
-### Ask AI
-
-RAG-powered chatbot. Ask questions in natural language; get answers grounded in scheme data with source citations.
-
-![SakhiSetu Ask AI](docs/screenshots/ask-ai.png)
-
-### Simplify Text
-
-Convert complex legal or eligibility text into simple, readable language. Supports 10 Indian languages.
-
-![SakhiSetu Simplify Text](docs/screenshots/simplify-text.png)
 
 ---
 
@@ -410,6 +368,34 @@ Use `lang` query param or request body field on schemes, eligibility, simplify, 
 - [ ] **Authentication** — User profiles, saved eligibility checks
 - [ ] **State-specific schemes** — Filter by state, richer eligibility
 - [ ] **myScheme API** — Direct integration when public API available
+
+---
+
+## Output
+
+### Home
+
+Landing page with hero, key statistics (schemes count, languages, last updated), and call-to-action buttons.
+
+![SakhiSetu Home](docs/screenshots/home.png)
+
+### Schemes
+
+Browse government schemes with language selector, category filter, and refresh. Each card shows name, description, eligibility, and Apply link.
+
+![SakhiSetu Schemes](docs/screenshots/schemes.png)
+
+### Ask AI
+
+RAG-powered chatbot. Ask questions in natural language; get answers grounded in scheme data with source citations.
+
+![SakhiSetu Ask AI](docs/screenshots/ask-ai.png)
+
+### Simplify Text
+
+Convert complex legal or eligibility text into simple, readable language. Supports 10 Indian languages.
+
+![SakhiSetu Simplify Text](docs/screenshots/simplify-text.png)
 
 ---
 
